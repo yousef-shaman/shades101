@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN Shades</title>
+    <link rel="stylesheet" href="my.css">
+  </head>
+  <body>
+    
+    <div class="hero">
+      <header>
+        <a href="1-home.html"><h2 class="logo">shades</h2></a>
+              <nav>
+                <ul class="nav__links">
+                  <li class="active"><a href="2-login.html" >Join us</a></li>
+                 <li><a href="3-stories.html">Stories</a></li>
+                 <li><a href="4-about-us.html">About us</a></li>
+             </ul>
+              </nav>
+              
+              <div class="mobile__menu">
+                <input id="toggle" type="checkbox"/>
+                <label class="burger" for="toggle">
+                    <div class="burger__top"></div>
+                    <div class="burger__meat"></div>
+                    <div class="burger__bottom"></div>
+                </label>
+
+                <div class="burger__nav">
+                    <div class="burger__nav--wrapper">
+                        <nav class="burger__nav--items">
+                            <a href="2-login.html">Join us</a>
+                            <a href="3-stories.html">Stories</a>
+                            <a href="4-about-us.html">About us</a>
+                        </nav>
+                    </div>
+                </div>
+              </div>
+      </header>
+  <form action="3-stories.html">
+<div class="login-box">
+  <h1>Login</h1>
+  
+  
+  <div class="textbox">
+    <i class="fas fa-name"></i>
+    <input type="text" placeholder="full name" required>
+  </div>
+
+  <div class="textbox">
+    <i class="fas fa-age"></i>
+    <input type="number" placeholder="age" pattern="(?=.*[1-150])" required >
+  </div>
+
+  <div class="checkbox">
+    <p>Please select your favorite :</p>
+  <input type="radio" id="Writer" name="POV" value="Writer" required>
+  <label for="Writer">Writer</label><br>
+  <input type="radio" id="Reader" name="POV" value="Reader" required>
+  <label for="Reader">Reader</label><br>
+  </div>
+  <div class="uuu">
+    <label>
+    <input type="checkbox" name="remember"> Remember me
+  </label>
+  </div>
+  
+    <input type="Submit" class="btn__sub" value="Submit">
+
+
+  <!--<input type="Submit" class="botton, btn" value="Submit">-->
+</div>
+</form>
+
+
+
+
+
+  </body>
+</html>
